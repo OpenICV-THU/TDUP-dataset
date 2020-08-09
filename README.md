@@ -1,7 +1,7 @@
 # Tsinghua-Daimler Urban Pose Dataset
 
 
-***Note: The official website will be linked here after the construction is finished. There will be a fantastic dataset soon!***
+***Note: The official website will be linked here after finishing construction. There will be a fantastic dataset soon!***
 
 
 ## Introduction
