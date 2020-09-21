@@ -51,7 +51,7 @@ We compare our TDUP dataset with other popular skeleton datasets including MSCOC
 
 ##### 1. Person Size Frequencies
 
-<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_bbox_height_histogram_d.png" width = "300" height = "200" alt="bbox_height"/>
+<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_bbox_height_histogram_d.png" width = "600" height = "400" alt="bbox_height" align=center/>
 
 The figure demonstrates the human bounding box height distribution of different datasets. TDUP has a larger proportion of small-size humans than others because a great number of VRUs in traffic scenes seem very small in images. 
 
@@ -59,6 +59,6 @@ The figure demonstrates the human bounding box height distribution of different 
 
 ##### 2. Keypoints Visibility
 
-<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_kps_visibility_histogram_d.png" width = "300" height = "200" alt="keypoint visibility" />
+<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_kps_visibility_histogram_d.png" width = "600" height = "400" alt="keypoint visibility" align=center/>
 
 The figure demonstrates the keypoints visibility of different datasets. It is common that VRUs are occasionally occluded by themselves or others visually so there is larger proportion of invisible keypoints in TDUP than in others. We compare them based on the definition of keypoints in TDUP. Facial points are not defined in AI Challenger and MPII so there are no corresponding columns for them. 
