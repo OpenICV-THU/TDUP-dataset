@@ -13,11 +13,11 @@ The dataset is coming soon and the certain statistics will be updated with its p
 
 Several labelled images are displayed as examples.
 
-<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/examples/2017-02-24-14-19-45_14-26-50-000.jpg" alt="example_1" style="zoom:50%;" />
+<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/examples/2017-02-24-14-19-45_14-26-50-000.jpg" alt="example_1" width = "600" height = "400"  />
 
-<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/examples/2017-03-04-09-56-25_09-56-35-000.jpg" alt="example_2" style="zoom:50%;" />
+<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/examples/2017-03-04-09-56-25_09-56-35-000.jpg" alt="example_2" width = "600" height = "400"  />
 
-<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/examples/2017-04-25-17-12-35.jpg" alt="example_3" style="zoom:50%;" />
+<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/examples/2017-04-25-17-12-35.jpg" alt="example_3" width = "600" height = "400"  />
 
 ## Statistics Analysis
 
@@ -51,7 +51,7 @@ We compare our TDUP dataset with other popular skeleton datasets including MSCOC
 
 ##### 1. Person Size Frequencies
 
-<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_bbox_height_histogram_d.png" width = "600" height = "400" alt="bbox_height" align=center/>
+<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_bbox_height_histogram_d.png" width = "450" height = "300" alt="bbox_height"/>
 
 The figure demonstrates the human bounding box height distribution of different datasets. TDUP has a larger proportion of small-size humans than others because a great number of VRUs in traffic scenes seem very small in images. 
 
@@ -59,6 +59,6 @@ The figure demonstrates the human bounding box height distribution of different 
 
 ##### 2. Keypoints Visibility
 
-<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_kps_visibility_histogram_d.png" width = "600" height = "400" alt="keypoint visibility" align=center/>
+<img src="https://github.com/OpenICV-THU/TDUP-dataset/blob/master/statistics/all_kps_visibility_histogram_d.png" width = "450" height = "300" alt="keypoint visibility"/>
 
 The figure demonstrates the keypoints visibility of different datasets. It is common that VRUs are occasionally occluded by themselves or others visually so there is larger proportion of invisible keypoints in TDUP than in others. We compare them based on the definition of keypoints in TDUP. Facial points are not defined in AI Challenger and MPII so there are no corresponding columns for them. 
